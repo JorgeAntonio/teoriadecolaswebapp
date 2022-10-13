@@ -817,3 +817,4 @@ C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas\obj\Debug\net6.0\T
 C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas\obj\Debug\net6.0\refint\TeoriaColas.dll
 C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas\obj\Debug\net6.0\TeoriaColas.pdb
 C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas\obj\Debug\net6.0\ref\TeoriaColas.dll
+C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas\obj\Debug\net6.0\scopedcss\Pages\Index.Razor.rz.scp.css

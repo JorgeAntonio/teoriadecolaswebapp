@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-wmk56X5dbt29rrFZKEFpOFjotkZA+JSxA4fqkgmBsOU=",
       "netstandard.dll": "sha256-CvlfDmNgFRYT7l\/xZKu91FlbTFyLG\/5cH7YX63k9ghE=",
       "System.Private.CoreLib.dll": "sha256-aF4imeOpA59D6F5qCLabzkeY7MvRZzNYzavhB\/bdxvM=",
-      "TeoriaColas.dll": "sha256-DT+0HuONxHseYSefO5txrbXwjftHrzTM6vo2A02mF9k="
+      "TeoriaColas.dll": "sha256-J7DuMlQ4QtJaWQ90bVlJL\/nQRLgLwFAWu\/DP2S1ysTY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "TeoriaColas.pdb": "sha256-RhNqvMTTiLfZ6i5P2hiR2GPPUb1lNuovHddwYMyy23g="
+      "TeoriaColas.pdb": "sha256-vuFAQoe2XRU2RbjAUbIfpVWTfw3g6sIsUTGq7Trjg24="
     },
     "runtime": {
       "dotnet.6.0.7.y6wnp9f89c.js": "sha256-pvJcJ6jtDSfxgXm03QYRTm4aAi9PSzMSJODReHtvASY=",

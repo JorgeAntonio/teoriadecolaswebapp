@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+JOfHZZ6G68s0MA6+NgngQXEiqnuZbW82gU/KL0F++w=",
+  "Hash": "glAP9mZsY6QddFCWX1KoSjhqKqm9jnCN5Z4/lYCycus=",
   "Source": "TeoriaColas",
   "BasePath": "/",
   "Mode": "Root",
@@ -7291,6 +7291,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\2\\15.9.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Static Web Apps\\TeoriaColas\\TeoriaColas\\wwwroot\\img\\wallpaper.jpg",
+      "SourceId": "TeoriaColas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Static Web Apps\\TeoriaColas\\TeoriaColas\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/wallpaper.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\wallpaper.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Static Web Apps\\TeoriaColas\\TeoriaColas\\wwwroot\\index.html",

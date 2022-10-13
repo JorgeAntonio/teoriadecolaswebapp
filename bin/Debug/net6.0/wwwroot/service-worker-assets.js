@@ -93,6 +93,10 @@
       "url": "img\/2\/15.9.png"
     },
     {
+      "hash": "sha256-zz\/yU47q\/RVCQ6PZrxXSxwBZ\/rYmNQ3BIDwPGoHhXeM=",
+      "url": "img\/wallpaper.jpg"
+    },
+    {
       "hash": "sha256-fwUps9sL9YcR1N5eOFQ2NWtV5moMV0pf1roSW3s1rPQ=",
       "url": "index.html"
     },
@@ -105,7 +109,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-5V7vPRiT+x6b7m2VSIaRisDe6MyXx3QQDD75XZcbmOE=",
+      "hash": "sha256-YLEoBnkO4brMeBW5mjadE3h53it0W\/J33jShDW+KB+0=",
       "url": "TeoriaColas.styles.css"
     },
     {
@@ -893,11 +897,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Fokk9tfa+yIC4k41tmRYpWve1BsuNpxEtACSAtq36ww=",
+      "hash": "sha256-J7DuMlQ4QtJaWQ90bVlJL\/nQRLgLwFAWu\/DP2S1ysTY=",
       "url": "_framework\/TeoriaColas.dll"
     },
     {
-      "hash": "sha256-Kekfc+5VIR8hOILDS8Z08wSPU7TzDfmLRMGDl5DMEoQ=",
+      "hash": "sha256-vuFAQoe2XRU2RbjAUbIfpVWTfw3g6sIsUTGq7Trjg24=",
       "url": "_framework\/TeoriaColas.pdb"
     },
     {
@@ -905,9 +909,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-COVfcr3u+C1p8O46nxI+YpH9InvB9tcPNqxaqJ0Z9EU=",
+      "hash": "sha256-fz0hU9VySTXiNQp5qB\/CGngIaOxV\/i5WPB1iNEWcKug=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "ZVxvu25s"
+  "version": "g3Os7qLl"
 };
