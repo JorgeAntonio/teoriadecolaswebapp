@@ -1,0 +1,250 @@
+﻿<h3 class="fw-bold">Modelo de línea de espera de canal único con llegadas Poisson y tiempos de servicio exponenciales</h3>
+<br/>
+<section class="">
+    <h5 class="card-title fw-bold">RESOLVER EJERCICIOS</h5>   
+    <p>
+        <ul>
+            <li>ʎ = Número medio de llegadas por periodo de tiempo (tasa de llegadas)</li>
+            <li>ꙡ = Número medio de servicios por periodo de tiempo (tasa de servicios)</li>
+        </ul>
+    </p>
+
+    <EditForm Model="calcular" OnValidSubmit="Calcular">
+        <div class="">
+            <div class="card w-50">
+                 <div class="card-header">
+                    Ingresar datos:
+                 </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                      <InputNumber @bind-Value="NumLlegadas" required class="form-control" placeholder="ʎ" />
+                    </div>
+                    <div class="mb-3">
+                      <InputNumber @bind-Value="NumServicios" required class="form-control" placeholder="ꙡ" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </div>
+    </EditForm>
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            1. La probabilidad de que no haya unidades en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.4.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Po : @Respuesta1</h5>
+                    <p class="card-text"> Promedio: @Res1porce1 %</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>    
+     <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            2. El número promedio de unidades en línea de espera:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.5.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Lq : @Respuesta2</h5>
+                    <p class="card-text"> Promedio: @Res1porce2 clientes</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div> 
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            3. El número promedio de unidades en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.6.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">L : @Respuesta3</h5>
+                    <p class="card-text"> Promedio: @Res1porce3 clientes</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            4. El tiempo promedio que la unidad pasa en la línea de espera:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.7.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Wq : @Respuesta4</h5>
+                    <p class="card-text"> Promedio: @Res1porce4 segundos</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            5. El tiempo promedio que la unidad pasa en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.8.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">W : @Respuesta5</h5>
+                    <p class="card-text"> Promedio: @Res1porce5 segundos</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            6. La probabilidad de que la unidad que llega no tenga que esperar a ser atendida:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.9.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Pw : @Respuesta6</h5>
+                    <p class="card-text"> Promedio: @Res1porce6 %</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            7. La probabilidad de que haya n unidades en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.10.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <p class="card-title">n : 
+                        <ul>
+                            <li>n = 0</li>
+                            <li>n = 1</li>
+                            <li>n = 2</li>
+                            <li>n = 3</li>
+                            <li>n = 4</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col text-start"> 
+                    <p class="card-title">Pn : 
+                        <ul>
+                            <li>P0 = @Respuesta7</li>
+                            <li>P1 = @Respuesta8</li>
+                            <li>P2 = @Respuesta9</li>
+                            <li>P3 = @Respuesta10</li>
+                            <li>P4 = @Respuesta11</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+@code {
+    string calcular = "";
+
+    private double NumLlegadas;
+    private double NumServicios;
+
+    private double Respuesta1;
+    private double Res1porce1;
+
+    private double Respuesta2;
+    private double Res1porce2;
+
+    private double Respuesta3;
+    private double Res1porce3;
+
+    private double Respuesta4;
+    private double Res1porce4;
+
+    private double Respuesta5;
+    private double Res1porce5;
+
+    private double Respuesta6;
+    private double Res1porce6;
+
+    private double Respuesta7;
+    private double Respuesta8;
+    private double Respuesta9;
+    private double Respuesta10;
+    private double Respuesta11;
+    private double Res1porce7;
+
+    private void Calcular()
+    {
+
+        if (NumLlegadas != 0 && NumServicios != 0)
+        {
+            Respuesta1 = (1 - (NumLlegadas / NumServicios));
+            Res1porce1 = Respuesta1 * 100;
+
+            var abs = Math.Abs(NumLlegadas);
+            Respuesta2 = (Math.Pow(abs, 2) / (NumServicios * (NumServicios - NumLlegadas)));
+            Res1porce2 = Math.Round(Respuesta2);
+
+            Respuesta3 = Respuesta2 + (NumLlegadas / NumServicios);
+            Res1porce3 = Math.Round(Respuesta3);
+
+            Respuesta4 = (Respuesta2 / NumLlegadas);
+            Res1porce4 = Respuesta4 * 60;
+
+            Respuesta5 = Respuesta4 + (1 / NumServicios);
+            Res1porce5 = Respuesta5 * 60;
+
+            Respuesta6 = (NumLlegadas / NumServicios);
+            Res1porce6 = Respuesta6 * 100;
+
+            var division = Math.Abs(NumLlegadas / NumServicios);
+            Respuesta7 = Math.Pow(division, 0) * Respuesta1;
+            Respuesta8 = Math.Pow(division, 1) * Respuesta1;
+            Respuesta9 = Math.Pow(division, 2) * Respuesta1;
+            Respuesta10 = Math.Pow(division, 3) * Respuesta1;
+            Respuesta11 = Math.Pow(division, 4) * Respuesta1;
+        }
+    }
+
+}

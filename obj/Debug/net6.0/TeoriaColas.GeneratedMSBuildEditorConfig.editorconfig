@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = TeoriaColas
+build_property.RootNamespace = TeoriaColas
+build_property.ProjectDir = C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Static Web Apps\TeoriaColas\TeoriaColas
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Pages/CaoDos/CapituloDos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FvRG9zXENhcGl0dWxvRG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Pages/CaoDos/CaracterísticasDeOperación.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FvRG9zXENhcmFjdGVyw61zdGljYXNEZU9wZXJhY2nDs24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Pages/CapUno/CapituloUno.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FwVW5vXENhcGl0dWxvVW5vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Pages/CapUno/DistribucionDeProbabilidadDePoisson.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FwVW5vXERpc3RyaWJ1Y2lvbkRlUHJvYmFiaWxpZGFkRGVQb2lzc29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-79wxgc80tc
+
+[C:/Users/User/Desktop/Static Web Apps/TeoriaColas/TeoriaColas/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fduu2fup5u

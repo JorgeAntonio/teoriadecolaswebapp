@@ -1,0 +1,71 @@
+﻿<h3 class="fw-bold">Distribucion de probabilidad de Poisson</h3>
+<br />
+<h5 class="card-title fw-bold">RESOLVER EJERCICIOS</h5>   
+    <p>
+        <ul>
+            <li>x = Número de llegadas en el periodo de tiempo</li>
+            <li>ʎ = Número medio de llegadas por periodo de tiempo (tasa de llegadas)</li>
+            <li>e = 2.71828</li>
+        </ul>
+    </p>
+
+    <EditForm Model="calcular" OnValidSubmit="Calcular">
+        <div class="">
+            <div class="card w-50">
+                 <div class="card-header">
+                    Ingresar datos:
+                 </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">x:</label>
+                        <InputNumber @bind-Value="NumLlegadas" required class="form-control" placeholder="x" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">ʎ:</label>
+                        <InputNumber @bind-Value="NumMedios" required class="form-control" placeholder="ʎ" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </div>
+    </EditForm>
+    <br />
+    <div class="">
+        <div class="card w-50">
+          <div class="card-header">
+           Solución:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/1/15.1.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <p class="card-title">Px : @Respuesta</p>
+                    <p class="card-text"> Promedio: @VerRespuesta %</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <br />
+
+@code {
+    string calcular = "";
+
+    private double NumLlegadas;
+    private double NumMedios;
+    private double e = 2.71828;
+
+    private double Respuesta;
+    private double VerRespuesta;
+
+    private void Calcular()
+    {
+        var PotNumLlegadas = Math.Pow(NumLlegadas, 3);
+        var PotNumMedios = Math.Pow(e, - NumLlegadas);
+        Respuesta = PotNumLlegadas * PotNumMedios / Math.Abs(NumLlegadas);
+        VerRespuesta = Respuesta * 100;
+    }
+}
