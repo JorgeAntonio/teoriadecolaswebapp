@@ -18,11 +18,11 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <label class="form-label fw-bold">x:</label>
-                        <InputNumber @bind-Value="NumLlegadas" required class="form-control" placeholder="x" />
+                        <InputNumber @bind-Value="NumX" required class="form-control" placeholder="x" />
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-bold">ʎ:</label>
-                        <InputNumber @bind-Value="NumMedios" required class="form-control" placeholder="ʎ" />
+                        <InputNumber @bind-Value="NumLam" required class="form-control" placeholder="ʎ" />
                     </div>
                     <button type="submit" class="btn btn-primary">Calcular</button>
                 </div>
@@ -54,8 +54,8 @@
 @code {
     string calcular = "";
 
-    private double NumLlegadas;
-    private double NumMedios;
+    private double NumX;
+    private double NumLam;
     private double e = 2.71828;
 
     private double Respuesta;
@@ -63,9 +63,19 @@
 
     private void Calcular()
     {
-        var PotNumLlegadas = Math.Pow(NumLlegadas, 3);
-        var PotNumMedios = Math.Pow(e, - NumLlegadas);
-        Respuesta = PotNumLlegadas * PotNumMedios / Math.Abs(NumLlegadas);
-        VerRespuesta = Respuesta * 100;
+        if (NumX >= 0 && NumLam >= 0)
+        {
+            var factNumx = NumX;
+            double fact = 1;
+            var potenciaNumx = Math.Pow(NumLam, NumX);
+            var ePotencia = Math.Pow(e, -NumLam);
+            for (int x = 1; x < factNumx; x++)
+            {
+                fact *= NumX;
+            }
+            
+            Respuesta = potenciaNumx * ePotencia / fact;
+            VerRespuesta = Respuesta * 100;
+        }
     }
 }

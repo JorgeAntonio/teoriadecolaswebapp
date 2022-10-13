@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-lDAEEaul32OkTANWkZgjgs4sFCsMdLsR5NJxrjVcXdo=",
+      "hash": "sha256-zR\/lnbqZsHGshI7hzQ61Y3PymtlvZzECsklBB9\/AOF4=",
       "url": "css\/app.css"
     },
     {
@@ -109,7 +109,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-YLEoBnkO4brMeBW5mjadE3h53it0W\/J33jShDW+KB+0=",
+      "hash": "sha256-f\/Mo5x1ViRsBnzDAgaxEIbbWQ\/LniascJKgQ8kKDTms=",
       "url": "TeoriaColas.styles.css"
     },
     {
@@ -897,11 +897,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-J7DuMlQ4QtJaWQ90bVlJL\/nQRLgLwFAWu\/DP2S1ysTY=",
+      "hash": "sha256-73ZeQQUSIe6Fu3FVRJl26MRXSVpYzAyHYPtSSchUPmU=",
       "url": "_framework\/TeoriaColas.dll"
     },
     {
-      "hash": "sha256-vuFAQoe2XRU2RbjAUbIfpVWTfw3g6sIsUTGq7Trjg24=",
+      "hash": "sha256-ehhNo\/f\/KK106N6\/hnreL0No0UzuBIsITNBgynC+EPY=",
       "url": "_framework\/TeoriaColas.pdb"
     },
     {
@@ -909,9 +909,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-fz0hU9VySTXiNQp5qB\/CGngIaOxV\/i5WPB1iNEWcKug=",
+      "hash": "sha256-uD9QuAAMM16+9Zj5Ax82tiZf+nTeDzPBz4Uy6dIbvq8=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "g3Os7qLl"
+  "version": "ZPNzcrsm"
 };

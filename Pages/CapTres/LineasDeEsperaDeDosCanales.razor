@@ -1,0 +1,227 @@
+﻿@page "/capitulotres"
+
+<PageTitle>Capitulo Tres</PageTitle>
+
+<h2 class="text-center fw-bold p-3">Capitulo Tres</h2>
+
+<h3 class="text-center fw-bold">Modelo de línea de espera de multiples canales con llegadas Poisson y tiempos de servicio exponenciales</h3>
+<br/>
+<h3 class="card-title fw-bold">Lineas de espera de dos canales</h3>
+<br />
+<h5 class="card-title fw-bold">RESOLVER EJERCICIOS</h5>  
+
+<section>
+    <p>
+        <ul>
+            <li>x = Número de llegadas en el periodo de tiempo</li>
+            <li>ʎ = Número medio de llegadas por periodo de tiempo (tasa de llegadas)</li>
+            <li>e = 2.71828</li>
+        </ul>
+    </p>
+
+    <EditForm Model="calcular" OnValidSubmit="Calcular">
+        <div class="">
+            <div class="card w-50">
+                <div class="card-header">
+                    Ingresar datos:
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">x:</label>
+                        <InputNumber @bind-Value="NumX" required class="form-control" placeholder="x" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">ʎ:</label>
+                        <InputNumber @bind-Value="NumLam" required class="form-control" placeholder="ʎ" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </div>
+    </EditForm>
+    <br />
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            1. La probabilidad de que no haya unidades en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.4.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Po : @Respuesta</h5>
+                    <p class="card-text"> Promedio: @VerRespuesta %</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>    
+     <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            2. El número promedio de unidades en línea de espera:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.5.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Lq : @Respuesta</h5>
+                    <p class="card-text"> Promedio: @VerRespuesta clientes</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div> 
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            3. El número promedio de unidades en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.6.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">L : @Respuesta</h5>
+                    <p class="card-text"> Promedio: @VerRespuesta clientes</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            4. El tiempo promedio que la unidad pasa en la línea de espera:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.7.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Wq : @Respuesta</h5>
+                    <p class="card-text"> Promedio: @VerRespuesta segundos</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            5. El tiempo promedio que la unidad pasa en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.8.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">W : @Respuesta</h5>
+                    <p class="card-text"> Promedio: @VerRespuesta segundos</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            6. La probabilidad de que la unidad que llega no tenga que esperar a ser atendida:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.9.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <h5 class="card-title">Pw : @Respuesta</h5>
+                    <p class="card-text"> Promedio: @VerRespuesta %</p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br />
+    <div class="">
+        <div class="card w-75">
+          <div class="card-header">
+            7. La probabilidad de que haya n unidades en el sistema:
+          </div>
+          <div class="card-body">
+            <div class="row p-2">
+                <div class="col text-center">
+                    <img src="/img/2/15.10.png" height="60"/>
+                </div>  
+                <div class="col text-start"> 
+                    <p class="card-title">n : 
+                        <ul>
+                            <li>n = 0</li>
+                            <li>n = 1</li>
+                            <li>n = 2</li>
+                            <li>n = 3</li>
+                            <li>n = 4</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col text-start"> 
+                    <p class="card-title">Pn : 
+                        <ul>
+                            <li>P0 = @Respuesta</li>
+                            <li>P1 = @Respuesta</li>
+                            <li>P2 = @Respuesta</li>
+                            <li>P3 = @Respuesta</li>
+                            <li>P4 = @Respuesta</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>          
+          </div>
+        </div>
+    </div>  
+    <br/>
+    <br/>
+    <br/>
+
+</section>
+
+@code {
+    string calcular = "";
+
+    private double NumX;
+    private double NumLam;
+    private double e = 2.71828;
+
+    private double Respuesta;
+    private double VerRespuesta;
+
+    private void Calcular()
+    {
+        if (NumX >= 0 && NumLam >= 0)
+        {
+            var factNumx = NumX;
+            double fact = 1;
+            var potenciaNumx = Math.Pow(NumLam, NumX);
+            var ePotencia = Math.Pow(e, -NumLam);
+            for (int x = 1; x < factNumx; x++)
+            {
+                fact *= NumX;
+            }
+            
+            Respuesta = potenciaNumx * ePotencia / fact;
+            VerRespuesta = Respuesta * 100;
+        }
+    }
+}
